@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4683104b-87aa-43d3-bddb-a0b72a02fdb5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage_3/TrashCan.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../RZD_Posters_16_9/Assets/___NewProject/Runtime/Camera/CameraOrbit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage_3/DraggableBody.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage_3/TrashTypeHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage_3/TrashCollectionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage_1/ClothModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage_3/TrashType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage_1/ClothSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage_3/TrashSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage_1/RackRotater.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/FoldingPaper.cs" />
+        <option value="$PROJECT_DIR$/Assets/MeshTester.cs" />
+        <option value="$PROJECT_DIR$/Assets/TestTextureSaving.cs" />
+        <option value="$PROJECT_DIR$/Assets/TestTextureCombining.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClothFolding.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClothTesting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cloth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ClothModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RackRotater.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResultPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WishView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ReloadScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ClothSelector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ClientCab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StageManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Client.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stage_3/TrashCollectionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stage_3/TrashCan.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stage_3/TrashTypeHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stage_3/TrashSelector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stage_3/DraggableBody.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xlyB7LJu4l7Eu0wOfyVt6eTJSt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4683104b-87aa-43d3-bddb-a0b72a02fdb5" name="Default Changelist" comment="" />
+      <created>1630943830088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630943830088</updated>
+      <workItem from="1630943834534" duration="56583000" />
+      <workItem from="1631435221026" duration="5395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state width="2517" height="329" key="GridCell.Tab.0.bottom" timestamp="1631392155670">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155670" />
+    <state width="2517" height="329" key="GridCell.Tab.0.center" timestamp="1631392155670">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155670" />
+    <state width="2517" height="329" key="GridCell.Tab.0.left" timestamp="1631392155669">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155669" />
+    <state width="2517" height="329" key="GridCell.Tab.0.right" timestamp="1631392155670">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155670" />
+    <state width="2517" height="329" key="GridCell.Tab.1.bottom" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state width="2517" height="329" key="GridCell.Tab.1.center" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state width="2517" height="329" key="GridCell.Tab.1.left" timestamp="1631392155670">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155670" />
+    <state width="2517" height="329" key="GridCell.Tab.1.right" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state width="2517" height="329" key="GridCell.Tab.2.bottom" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state width="2517" height="329" key="GridCell.Tab.2.center" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state width="2517" height="329" key="GridCell.Tab.2.left" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state width="2517" height="329" key="GridCell.Tab.2.right" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state width="2517" height="329" key="GridCell.Tab.3.bottom" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.3.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state width="2517" height="329" key="GridCell.Tab.3.center" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.3.center/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state width="2517" height="329" key="GridCell.Tab.3.left" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.3.left/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state width="2517" height="329" key="GridCell.Tab.3.right" timestamp="1631392155671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="329" key="GridCell.Tab.3.right/0.0.2560.1400@0.0.2560.1400" timestamp="1631392155671" />
+    <state x="1171" y="424" key="RiderGenerateDialog" timestamp="1631122031337">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1171" y="424" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1631122031337" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="transform.position" language="C#" custom="RiderImportsList:" />
+        <watch expression="cabLayer" language="C#" custom="RiderImportsList:" />
+        <watch expression="clothLayer" language="C#" custom="RiderImportsList:" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
