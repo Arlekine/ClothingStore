@@ -39,7 +39,7 @@ public class TrashSelector : MonoBehaviour
         if (Physics.Raycast(ray, out hit, 1000f, layerMask: trashLayer))
         {
             var body = hit.collider.GetComponent<DraggableBody>();
-            if (body != null)
+            if (body != null && body.IsActive)
             {
                 _selectedTrash = body;
                 body.FollowPointer(raycastCamera);

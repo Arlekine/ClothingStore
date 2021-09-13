@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class DraggableBody : MonoBehaviour
 {
+    public bool IsActive { get; set; } = true;
+
+    [SerializeField] private LayerMask _floorMask;
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private float _floorHeight = 2f;
 
@@ -28,22 +31,25 @@ public class DraggableBody : MonoBehaviour
     {
         if (_pointerCamera == null || !_isFollowingPointer)
             return;
-        
+
         var fingers = LeanTouch.GetFingers(true, false);
-        
+
         if (fingers.Count == 0)
             return;
 
-        // RaycastHit hit;
-        // Ray ray = _pointerCamera.ScreenPointToRay(fingers[0].ScreenPosition);
-        //
-        // if (Physics.Raycast(ray, out hit, 1000f, layerMask: trashLayer))
-        // {
-        //
-        //     var pos = _pointerCamera.ScreenToWorldPoint(new Vector3(fingers[0].ScreenPosition.x,
-        //         fingers[0].ScreenPosition.y, _cameraDistance));
-        //
-        //     _rigidbody.MovePosition(pos);
-        // }
+        RaycastHit hit;
+        Ray ray = _pointerCamera.ScreenPointToRay(fingers[0].ScreenPosition);
+
+        if (Physics.Raycast(ray, out hit, 1000f, layerMask: _floorMask))
+        {
+            var cameraFloorDistance = hit.distance;
+            var cameraHeight = _pointerCamera.transform.position.y;
+            var cameraToBodyDistance = cameraFloorDistance - (cameraFloorDistance * _floorHeight) / cameraHeight;
+
+            var pos = _pointerCamera.ScreenToWorldPoint(new Vector3(fingers[0].ScreenPosition.x,
+                fingers[0].ScreenPosition.y, cameraToBodyDistance));
+
+            _rigidbody.MovePosition(pos);
+        }
     }
 }

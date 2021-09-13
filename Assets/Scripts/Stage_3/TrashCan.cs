@@ -15,6 +15,8 @@ public class TrashCan : MonoBehaviour
 
         if (trash != null)
         {
+            other.GetComponent<DraggableBody>().IsActive = false;
+            print(trash.Type == _trashType);
             onTrashGot?.Invoke(this, trash.Type == _trashType);
         }
     }
