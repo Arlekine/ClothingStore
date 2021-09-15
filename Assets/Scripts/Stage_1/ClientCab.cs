@@ -21,6 +21,7 @@ public class ClientCab : MonoBehaviour
     [SerializeField] private Transform _door;
     [SerializeField] private Vector3 _closedDoorRotation;
     [SerializeField] private Vector3 _openedDoorRotation;
+    [SerializeField] private ParticleSystem _doorSlapFX;
     [SerializeField] private float _doorTime; 
 
     private HashSet<ClothType> _clothType = new HashSet<ClothType>();
@@ -32,7 +33,11 @@ public class ClientCab : MonoBehaviour
 
     public void CloseDoor()
     {
-        _door.DOLocalRotate(_closedDoorRotation, _doorTime);
+        _door.DOLocalRotate(_closedDoorRotation, _doorTime).OnComplete(() =>
+        {
+            _doorSlapFX.gameObject.SetActive(true);
+            _doorSlapFX.Play();
+        });
     }
 
     public void ShowWish(ClothPack pack)
@@ -55,7 +60,7 @@ public class ClientCab : MonoBehaviour
         _collider.enabled = false;
     }
 
-    public bool CanGetClose(ClothType type)
+    public bool CanGetCloth(ClothType type)
     {
         return !_clothType.Contains(type);
     }

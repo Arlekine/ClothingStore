@@ -71,7 +71,7 @@ public class StageManager : MonoBehaviour
 
         if (_completedClients >= _clients.Count)
         {
-            EndStage(_score);
+            StartCoroutine(EndStage(_score));
         }
     }
 
@@ -83,14 +83,15 @@ public class StageManager : MonoBehaviour
         _rackRotater.MoveToPoint(_rackActivePos.position);
     }
 
-    private void EndStage(int result)
+    private IEnumerator EndStage(int result)
     {
-        _resultPanel.SetScore(result, _clients.Count);
-        _resultPanel.Show();
-        
         _clothSelector.enabled = false;
         _rackRotater.enabled = false;
         _rackRotater.MoveToPoint(_rackInactivePos.position);
-        //show panel
+        
+        yield return new WaitForSeconds(1.5f);
+        
+        _resultPanel.SetScore(result, _clients.Count);
+        _resultPanel.Show();
     }
 }

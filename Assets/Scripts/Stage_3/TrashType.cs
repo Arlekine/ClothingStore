@@ -1,6 +1,6 @@
 ﻿public enum TrashType
 {
-    Blue = 0,
-    Green = 1,
-    Red = 2
+    Plastic = 0,
+    Organic = 1,
+    Paper = 2
 }

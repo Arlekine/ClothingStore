@@ -5,19 +5,33 @@ using UnityEngine;
 
 public class TrashCan : MonoBehaviour
 {
-    public Action<TrashCan, bool> onTrashGot;
+    public Action<Trash, bool> onTrashGot;
     
     [SerializeField] private TrashType _trashType;
+    [SerializeField] private ParticleSystem _correctMoveFX;
+    [SerializeField] private ParticleSystem _incorrectMoveFX;
 
     public void OnTriggerEnter(Collider other)
     {
-        var trash = other.GetComponent<TrashTypeHolder>();
+        var trash = other.GetComponent<Trash>();
 
-        if (trash != null)
+        if (trash != null && trash.DraggableBody.IsActive)
         {
-            other.GetComponent<DraggableBody>().IsActive = false;
-            print(trash.Type == _trashType);
-            onTrashGot?.Invoke(this, trash.Type == _trashType);
+            trash.DraggableBody.IsActive = false;
+            bool correctTrashType = trash.Type == _trashType;
+
+            if (correctTrashType)
+            {
+                _correctMoveFX.gameObject.SetActive(true);
+                _correctMoveFX.Play();
+            }
+            else
+            {
+                _incorrectMoveFX.gameObject.SetActive(true);
+                _incorrectMoveFX.Play();
+            }
+
+            onTrashGot?.Invoke(trash, correctTrashType);
         }
     }
 }

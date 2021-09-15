@@ -40,7 +40,7 @@ public class ClothSelector : MonoBehaviour
                 {
                     var cloth = _currentClothModel;
 
-                    if (cab.CanGetClose(cloth.ClothData.Type))
+                    if (cab.CanGetCloth(cloth.ClothData.Type))
                     {
                         _currentClothModel.Deactivate();
                         _currentClothModel.GoToPoint(cab.ClothPoint.position).OnComplete(() => cab.GiveCloth(cloth));

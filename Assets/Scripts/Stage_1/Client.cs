@@ -25,8 +25,11 @@ public class Client : MonoBehaviour
 
     [Space]
     [SerializeField] private Animator _animator;
-    [SerializeField] private GameObject _positiveReaction;
-    [SerializeField] private GameObject _negativeReaction;
+
+    [Space] 
+    [SerializeField] private Transform _reactionPoint; 
+    [SerializeField] private GameObject _positiveReactionPrefab;
+    [SerializeField] private GameObject _negativeReactionPrefab;
     
     private List<Cloth> _puttedClothes = new List<Cloth>();
 
@@ -155,10 +158,16 @@ public class Client : MonoBehaviour
     private void ShowReaction(bool isPositive)
     {
         if (isPositive)
+        {
             _animator.SetBool("Joy", true);
+            Instantiate(_positiveReactionPrefab, _reactionPoint).transform.localPosition = Vector3.zero;
+        }
         else
+        {
             _animator.SetBool("Sad", true);
-        
+            Instantiate(_negativeReactionPrefab, _reactionPoint).transform.localPosition = Vector3.zero;;
+        }
+
         OnComplete?.Invoke(this, isPositive);
     }
 }
